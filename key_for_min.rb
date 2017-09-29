@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   compare = 0
   name_hash.collect do |key, value|
-    compare = value if value > compare
+    compare = winner if value > compare
   end
 end
 
