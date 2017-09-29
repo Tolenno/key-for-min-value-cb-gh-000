@@ -9,9 +9,3 @@ def key_for_min_value(name_hash)
     winner
   end
 end
-
-
-iterate overy the hash
-set variable compare = 0
-if value > compare, compare = value
-return value
