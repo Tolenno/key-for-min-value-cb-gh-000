@@ -6,6 +6,5 @@ def key_for_min_value(name_hash)
   winner = nil
   name_hash.each do |key, value|
     key = winner if value > compare
-    winner
   end
 end
